@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Chọn : </h3>
+
+<button type="button" class="btn btn-secondary">  <a href="https://localhost:44379/SanPham/Index">Quản Lý Sản Phẩm</a></button>
+<button type="button" class="btn btn-success"><a href="https://localhost:44379/Types/Index">Quản Lý Thể Loại</a></button>
+<button type="button" class="btn btn-danger"><a href="https://localhost:44379/Discounts/Index">Quản Lý Khuyến Mãi</a></button>
+<button type="button" class="btn btn-warning"><a href="https://localhost:44379/Orders/Index">Quản Lý Hóa Đơn</a></button>
+<button type="button" class="btn btn-secondary">@Html.ActionLink("Quản lý User", "Index", "ManageUser")</button>
